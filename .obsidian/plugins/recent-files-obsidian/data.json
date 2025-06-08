@@ -1,0 +1,20 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Buffer & Flush in C++",
+      "path": "CS_Notes/Buffer & Flush in C++.md"
+    },
+    {
+      "basename": "Stack and heap",
+      "path": "Stack and heap.md"
+    },
+    {
+      "basename": "Unique and Shared Pointer",
+      "path": "Unique and Shared Pointer.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

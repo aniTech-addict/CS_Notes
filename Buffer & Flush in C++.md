@@ -5,5 +5,3 @@ Buffer refers to the process of stacking outputs in memory such that there is a 
 
 ## Flush:
 The process of flushing the console with the generated output on Console when a certain command is reached.
-
-hi
