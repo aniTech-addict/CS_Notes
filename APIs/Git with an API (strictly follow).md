@@ -42,7 +42,6 @@ import os  load_dotenv()  # loads from .env  API_KEY = os.getenv("API_KEY")  pri
 ```
 
 ---
-
 #### 🔒 Why this matters:
 
 - Keeps **your API key safe** from leaks.
