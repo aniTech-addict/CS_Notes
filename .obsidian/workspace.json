@@ -154,8 +154,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -191,7 +191,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bc1a847eb39512ae",
+  "active": "4782afb59a6d7312",
   "lastOpenFiles": [
     "CS_Notes/Unique and Shared Pointer.md",
     "CS_Notes/Stack and heap.md",

@@ -5,5 +5,3 @@ When you get a JSON response from an API, the return value that data is often al
 python_dict = response.json()  #returns a python dict is repose is valid json
 ```
 
-
-

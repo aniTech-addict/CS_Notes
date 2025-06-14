@@ -23,7 +23,8 @@ This acts like a _template_ for others to fill in:
 
 To keep your real keys out of version control:
 
-`# .gitignore .env`
+`# .gitignore 
+	.env`
 
 ---
 
@@ -49,3 +50,27 @@ import os  load_dotenv()  # loads from .env  API_KEY = os.getenv("API_KEY")  pri
 - Makes **collaboration easier**.
     
 - Lets you have **different keys** for dev, prod, test.
+
+
+## Error Handling
+
+```python
+except requests.exceptions.HTTPError as http_err:
+
+        print(f"HTTP error occurred for city '{city_name}': {http_err} - Status code: {http_err.response.status_code}")
+
+    except requests.exceptions.RequestException as req_err:  
+    # For other network issues (DNS failure, connection refused, timeout)
+
+        print(f"Network error occurred for city '{city_name}': {req_err}")
+
+    except ValueError as json_err:  # If response.json() fails (e.g. response is not valid JSON)
+
+        print(f"JSON parsing error for city '{city_name}': {json_err}")
+
+    except Exception as e:  # For any other unexpected exceptions
+
+        print(f"An unexpected error occurred for city '{city_name}': {e}")
+
+    return None # indicate failure
+```
